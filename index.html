@@ -1,9 +1,15 @@
-<!DOCTYPE html>
+  
+  
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -23,33 +29,88 @@
 
 <li><a href="diet.html">DIET</a></li>
 
-<li><a href="exercise.html">EXERCISE PLAN</a</li>
+<li><a href="exercise.html">EXERCISE PLAN</a></li>
 
 <li><a href="contact us.html">CONTACT US</a></li>
 
 
 </ul>
 
-
-</header
-
-
-
-
-
-<main>
-
-
-
-
-</main>
-
+</header>
 
 
 
 <hr>
-<footer>
 
+   <main>
+    <h2>Gym Membership Form :-</h2>
+
+
+<img src=" https://static.vecteezy.com/system/resources/previews/019/522/257/non_2x/gym-interior-with-workout-equipment-and-mirror-fitness-center-training-area-illustration-vector.jpg" height="150" width="550">
+
+<br>
+<br>
+
+<form>
+<label for="name">Name :</label>
+<input type="text" placeholder="First" id="name" name="userfirstname" required>
+<input type="text" placeholder="last" id="name" name="userlastname" required>
+<br><br>
+
+<label for="weight">Your Current Weight :</label>
+<input type="number" id="weight" name="userweight" required placeholder="in kgs">
+<br><br>
+
+<label for="desired">Desired Weight :</label>
+<input type="number" id="desired" name="userdesired" required placeholder="in kgs">
+<br><br>
+
+<label for="height">Height :</label>
+<input type="number" id="height" name="userheight" required placeholder="in cm">
+<br><br>
+
+<label for="Email">Email :</label>
+<input type="email" id="Email" name="usermail" required placeholder="example@gmail.com">
+<br><br>
+
+<hr>
+
+<label> <h4>Do You Need a Personal Trainer :</h4></label>
+<label for="yes">Yes</label>
+
+<input type="radio" id="yes" name="Trainer" value="yes">
+
+<label for="No">No</label>
+ 
+<input type="radio" id="no" name="Trainer" value="No">
+
+<hr>
+<label> <h4>Membership Type :</h4></label>
+
+<label for="Regular">Regular</label>
+<input type="radio" id="Regular" name="memtype" value="Regular" >
+
+<br><br>
+<label for="type">Pro</label>
+<input type="radio" id="type" name="memtype" value="pro">
+
+<br><br>
+<label for="vip">VIP</label>
+<input type="radio" id="vip" name="memtype" value="VIP">
+<br><br>
+<button type="submit">Submit Form</button>
+<button type="reset">Clear Form</button>
+
+
+
+
+</form>
+<br>
+<hr>
+</main>
+
+
+<footer>
 
 <ul>
  
@@ -62,9 +123,16 @@
 
 <h4>Copyright &copy; All rights are Reserved</h4>
 
-
-
 </footer>
+
+
+
+
+
+
+
+
+
 
 
 
